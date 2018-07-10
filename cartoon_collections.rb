@@ -24,6 +24,6 @@ def find_the_cheese(squeek)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  squeek.include?("cheddar") 
+  squeek.find("cheddar") 
   
 end
