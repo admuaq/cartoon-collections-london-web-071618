@@ -25,7 +25,7 @@ def find_the_cheese(squeek)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   squeek.detect do |element|
-    element.any?"cheddar"
+    element.any?("cheddar")
   end
   
 end
