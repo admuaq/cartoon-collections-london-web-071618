@@ -1,7 +1,7 @@
 def roll_call_dwarves(order)# code an argument here
   # Your code here
   order.each_with_index do |element, index|
-    "#{index}. #{element}"
+   puts "#{index}. #{element}"
   end 
   
 end
